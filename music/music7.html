@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj6.jpg" class="img-rounded" />
+                <p>歌名：语病</p>
+                <h6>歌手：彭小胖</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>语病 - 彭小胖</span><br />
+                    作词：周仁<br />
+                    作曲：潘成<br />
+                    制作人：颜小健<br />
+                    突然的安静<br />
+                    空气都像闭上了眼睛<br />
+                    潜伏的灰尘<br />
+                    享受一份陈年的安宁<br />
+                    爱没有使用说明<br />
+                    盲目顺从未免太不公平<br />
+                    别再自作聪明<br />
+                    再心存侥幸<br />
+                    听不清<br />
+                    我患了避重就轻耳鸣<br />
+                    我都由你决定<br />
+                    是梦还是醒<br />
+                    不敢再乱猜结果<br />
+                    或者心存侥幸<br />
+                    你不过是任性<br />
+                    话说的有语病<br />
+                    从来幸运 都没有捷径<br />
+                    我都由你决定<br />
+                    是梦还是醒<br />
+                    又没有值得炫耀<br />
+                    那造物的本领<br />
+                    等着你的否定<br />
+                    还再故作镇定<br />
+                    兜兜转转 再与我同行<br />
+                    爱没有使用说明<br />
+                    盲目顺从未免太不公平<br />
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    
+                    别再自作聪明<br />
+                    再心存侥幸<br />
+                    听不清<br />
+                    我患了避重就轻耳鸣<br />
+                    我都由你决定<br />
+                    是梦还是醒<br />
+                    不敢再乱猜结果<br />
+                    或者心存侥幸<br />
+                    你不过是任性<br />
+                    话说的有语病<br />
+                    从来幸运 都没有捷径<br />
+                    我都由你决定<br />
+                    是梦还是醒<br />
+                    又没有值得炫耀<br />
+                    那造物的本领<br />
+                    等着你的否定<br />
+                    还再故作镇定<br />
+                    兜兜转转 再与我同行<br />
+                    我都由你决定<br />
+                    是梦还是醒<br />
+                    不敢再乱猜结果<br />
+                    或者心存侥幸<br />
+                    你不过是任性<br />
+                    话说的有语病<br />
+                    从来幸运 都没有捷径<br />
+                    我都由你决定<br />
+                    是梦还是醒<br />
+                    又没有值得炫耀<br />
+                    那造物的本领<br />
+                    等着你的否定<br />
+                    还再故作镇定<br />
+                    兜兜转转 再与我同行<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj6.jpg" class="img-circle" title="语病 - 彭小胖" />
+            </div>
+            <div class="col-md-11">
+                <div>语病 - <span>彭小胖</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/彭小胖 - 语病.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

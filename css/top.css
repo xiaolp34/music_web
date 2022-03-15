@@ -1,0 +1,193 @@
+ /* 导航栏css */
+    .example {
+        margin-top: 10px;
+    }
+
+    form.example input[type=text] {
+        padding: 8px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+    form.example button {
+        float: left;
+        width: 12%;
+        padding: 8px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    form.example button:hover {
+        background: #0b7dda;
+    }
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .nav {}
+
+    .logo a img {
+        width: 80px;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+
+    .logo a span {
+        font-size: 25px;
+        line-height: 60px;
+        font-family: sans-serif;
+        color: #000;
+        letter-spacing: 5px;
+        font-style: oblique;
+        font-weight: bolder;
+    }
+
+    .logo a:hover span {
+        color: #c533df;
+        font-size: 26px;
+    }
+
+
+
+    a:link {
+        text-decoration: none;
+        /* 指正常的未被访问过的链接*/
+
+    }
+
+    a:visited {
+        text-decoration: none;
+        /*指已经访问过的链接*/
+
+    }
+
+    a:hover {
+        text-decoration: none;
+        /*指鼠标在链接*/
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    /* 指正在点的链接*/
+    .nav_menu a {
+        line-height: 35px;
+        width: 100px;
+        text-align: center;
+        font-size: 17px;
+        color: #000;
+    }
+
+    .nav_menu a:hover {
+        color: #4518d86f;
+        font-weight: 500;
+    }
+
+    .login span {
+        margin-right: 3px;
+
+    }
+
+    .login {
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        color: #000;
+    }
+
+    .login>img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .example img {
+        width: 18px;
+        height: 18px;
+    }
+
+ /*排行榜*/
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .top_head {
+                font-size: 25px;
+                color: #000;
+
+                text-align: center;
+                margin-top: 50px;
+                letter-spacing: 20px;
+            }
+
+            .top_head>h1 {
+                font-weight: bolder;
+                text-shadow: 5px 5px 5px #888888;
+            }
+
+            .top {
+                margin-top: 50px;
+
+                margin-bottom: 25px;
+                width: 100%;
+            }
+             .top >.col-md-1{
+                    margin-left: 65px;
+                }
+            .top>.col-md-2 {
+                text-align: center;
+                height: 700px;
+                margin-right: 50px;
+                border-radius: 15px;
+                padding-top: 50px;
+            
+            }
+
+            .top>.col-md-2>div>p {
+                font-size: 25px;
+                letter-spacing: 10px;
+                color: white;
+                text-shadow: 5px 5px 10px #000;
+            }
+
+            .top>#top1 {
+                background-color: #5C62D3;
+                /* 不支持线性的时候显示 */
+                background-image: linear-gradient(to right, #8488ce, #0913d6, #8e91d8);
+
+            }
+
+            .top>#top2 {
+                background-color: #D9787A;
+                background-image: linear-gradient(to right, #d39e9f, #ce8485, #c99a9b);
+            }
+
+            .top>#top3 {
+                background-color: #7A8288;
+                background-image: linear-gradient(to right, #9ca6ae, #707c85, #969fa5);
+            }
+
+            .top>#top4 {
+                background-color: #69B6A4;
+                background-image: linear-gradient(to right, #7ad5c0, #5a9d8d, #82ddc8);
+            }
+           .top>.col-md-2 ol{
+                margin-left: 20px;
+                text-align: left;
+                line-height: 30px;
+                font-size: 15px;
+            }

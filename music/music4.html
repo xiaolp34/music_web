@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj3.jpg" class="img-rounded" />
+                <p>歌名：须尽欢</p>
+                <h6>歌手：渡</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>须尽欢 - 渡</span><br />
+                    作词：郑浩<br />
+                    作曲：郑浩<br />
+                    编曲：侯江浩<br />
+                   
+                    城南没有你<br />
+                    风语诉悲情<br />
+                    花落过花开<br />
+                    容我一人听曲释怀<br />
+                    人生得意须尽欢<br />
+                    一首情歌两难<br />
+                    我们为何一别两宽<br />
+                    人生得意须尽欢<br />
+                    情味腐烂<br />
+                    南北再无孤雁往来<br />
+                    人生得意须尽欢<br />
+                    倦看烟雨江南<br />
+                    梦里无人生还<br />
+                    人生得意须尽欢<br />
+                    时辰太晚<br />
+                    绵绵温情差你时寒<br />
+                    城北参透我<br />
+                    是你<br />
+                    深情期许过<br />
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    
+                    人生尚有来处<br />
+                    却只剩归途<br />
+                    我纵笔争取从容<br />
+                    人生得意须尽欢<br />
+                    一首情歌两难<br />
+                    我们别再一拍两散<br />
+                    人生得意须尽欢<br />
+                    情味腐烂<br />
+                    字里行间谈离散<br />
+                    人生得意须尽欢<br />
+                    借旧俗人作伴<br />
+                    我懂此情入戏为怀<br />
+                    人生得意须尽欢<br />
+                    悲歌曲调唱完<br />
+                    情话不再相伴<br />
+                    人生得意须尽欢<br />
+                    烟雨江南<br />
+                    梦里无人生还<br />
+                    人生得意须尽欢<br />
+                    遇你可算晚<br />
+                    绵绵温情差你时寒<br />
+                    人生得意须尽欢<br />
+                    怪情涣散<br />
+                    剩我四季贪念爱<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj3.jpg" class="img-circle" title="渡 - 须尽欢" />
+            </div>
+            <div class="col-md-11">
+                <div>须尽欢 - <span>渡</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/渡 - 须尽欢.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>登录/注册</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css"/>
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/register.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div class="register">
+        <div class="register_head">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#sign_in" data-toggle="tab">登录</a>
+                </li>
+                <li>
+                    <a href="#register" data-toggle="tab">注册</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="sign_in">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="firstname" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="firstname" placeholder="请输入手机号或邮箱">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="请输入密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">请记住我
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input type="button" value="登录" class="btn btn-primary" data-toggle="modal"
+                                data-target="#myModaldl">
+                        </div>
+                    </div>
+                </form>
+                <!--登录模态框-->
+                <div class="modal fade" id="myModaldl" tabindex="-1" role="dl" aria-labelledby="myModalLabel"
+                    aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">提示信息</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h3>登陆成功！</h3>
+                            </div>
+                            <div class="modal-footer">
+                                <a href = "../index.html"><button type="button" class="btn btn-primary">确定</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="register">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            <select class="form-control">
+                                <option>中国 +86</option>
+                                <option>美国 +1</option>
+                                <option>日本 +81</option>
+                                <option>中国香港 +852</option>
+                                <option>中国澳门 +853</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="firstname" placeholder="请输入手机号">
+                        </div>
+                    </div>
+
+                    <div class=" form-group row">
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" name="code" placeholder="请输入6位短信验证码">
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="button" value="获取短信验证码" class="btn btn-success" data-toggle="modal"
+                                data-target="#myModalyzm">
+                        </div>
+                        <!--验证码模态框-->
+                        <div class="modal fade" id="myModalyzm" tabindex="-1" role="yzm" aria-labelledby="myModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title" id="myModalLabel">提示信息</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3>验证码已发送！</h3>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">前往填入</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input type="button" value="立即注册" class="btn btn-primary" data-toggle="modal"
+                                data-target="#myModalzc">
+                        </div>
+                    </div>
+                </form>
+                <!--注册模态框-->
+                <div class="modal fade" id="myModalzc" tabindex="-1" role="zc" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">提示信息</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h3>注册成功！</h3>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="./register.html"><button type="button" class="btn btn-primary">前往登录</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

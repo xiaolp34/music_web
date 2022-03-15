@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/zx3.jpg" class="img-rounded" />
+                <p>歌名：字里行间 (《紫禁城》大型纪录片主题歌)</p>
+                <h6>歌手：张碧晨</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>字里行间 (《紫禁城》大型纪录片主题歌) - 张碧晨</span><br />
+                    词：苟璘<br />
+                    曲：唐湘智<br />
+                    编曲：James Yeo @KennC Music<br />
+                    制作人：刘凤瑶<br />
+                    明月 明月 红叶别枝惊鹊<br />
+                    清风 清风 轻声半夜鸣蝉<br />
+                    是谁在文渊阁金水灯窗前<br />
+                    藏起沾墨的书签<br />
+                    一本 一本 记录漫长时间<br />
+                    历史星辰 浩如海烟<br />
+                    拂去落在封面的灰尘<br />
+                    字里行间会新生<br />
+                    面对世界疑问总是万万千千<br />
+                    期望你找到一个想要的答案<br />
+                    等河流穿过几座山换过几道弯<br />
+                    蜿蜒在百转千回中靠岸<br />
+                    面对世界回答也有万万千千<br />
+                    期望你找到一个安心的答案<br />
+                    也许曾千里迢迢寄望远方出发<br />
+
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    等待困惑的一颗心 那是家<br />
+                    明月 明月 事有阴晴圆缺<br />
+                    清风 清风 何处奔向青天<br />
+                    是谁在文渊阁金水灯窗前<br />
+                    找到沾墨的书签<br />
+                    一本 一本 记录漫长时间<br />
+                    历史星辰 浩如海烟<br />
+                    拂去落在封面的灰尘<br />
+                    字里行间会新生<br />
+                    面对世界疑问总是万万千千<br />
+                    期望你找到一个想要的答案<br />
+                    等河流穿过几座山换过几道弯<br />
+                    蜿蜒在百转千回中靠岸<br />
+                    面对世界回答也有万万千千<br />
+                    期望你找到一个安心的答案<br />
+                    也许曾千里迢迢寄望远方出发<br />
+                    等待困惑的一颗心 那是家<br />
+                    面对世界回答也有万万千千<br />
+                    期望你找到一个安心的答案<br />
+                    也许曾千里迢迢寄望远方出发<br />
+                    等待困惑的一颗心 那是家<br />
+                    也许曾千里迢迢寄望远方出发<br />
+                    等待困惑的一颗心 那是家<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/zx3.jpg" class="img-circle" title="字里行间 (《紫禁城》大型纪录片主题歌) - 张碧晨" />
+            </div>
+            <div class=" col-md-11">
+                <div>字里行间 (《紫禁城》大型纪录片主题歌) - <span>张碧晨</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/张碧晨 - 字里行间.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

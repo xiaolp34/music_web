@@ -1,0 +1,320 @@
+ /* 导航栏css */
+        .example {
+            margin-top: 10px;
+        }
+
+        form.example input[type=text] {
+            padding: 8px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+
+        form.example button {
+            float: left;
+            width: 12%;
+            padding: 8px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+        form.example button:hover {
+            background: #0b7dda;
+        }
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        .nav {
+            height: 60px;
+
+        }
+
+        .logo a img {
+            width: 80px;
+            margin-left: 50px;
+            margin-right: 10px;
+            margin-top: -10px;
+        }
+
+        .logo a span {
+            font-size: 25px;
+            line-height: 60px;
+            font-family: sans-serif;
+            color: #000;
+            letter-spacing: 5px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+
+        .logo a:hover span {
+            color: #c533df;
+            font-size: 26px;
+        }
+
+
+
+        a:link {
+            text-decoration: none;
+            /* 指正常的未被访问过的链接*/
+
+        }
+
+        a:visited {
+            text-decoration: none;
+            /*指已经访问过的链接*/
+
+        }
+
+        a:hover {
+            text-decoration: none;
+            /*指鼠标在链接*/
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
+        /* 指正在点的链接*/
+        .nav_menu a {
+            line-height: 35px;
+            width: 100px;
+            text-align: center;
+            font-size: 17px;
+            color: #000;
+        }
+
+        .nav_menu a:hover {
+            color: #4518d86f;
+            font-weight: 500;
+        }
+
+        .login span {
+            margin-right: 3px;
+
+        }
+
+        .login {
+            font-size: 20px;
+            line-height: 60px;
+            letter-spacing: 5px;
+            color: #000;
+        }
+        .login>img{
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+.example img{
+width: 18px;
+height: 18px;
+}
+
+        /* 轮播图css */
+        .shuffling .item img {
+            height: 400px;
+            width: 100%;
+        }
+        .carousel-control>span>img{
+            width: 50px;
+            height: 50px;
+            margin-top: 180px;
+        }
+        /* 推荐歌曲css */
+
+
+        .recommend {
+            width: 1000px;
+
+        }
+
+        .recommend_head {
+            height: 80px;
+            line-height: 80px;
+        }
+
+        .recommend_head h1 i {
+            color: blue;
+            margin-left: 30px;
+            margin-right: 20px;
+        }
+
+        .recommend_head h1 span {
+            color: #000;
+            letter-spacing: 8px;
+            font-size: 30px;
+        }
+
+
+        .recommend>.nav {
+            height: 235px;
+            margin-left: 50px;
+
+        }
+
+        .recommend .nav .col-md-3 a img {
+            width: 150px;
+            height: 150px;
+
+        }
+
+        .recommend .nav .col-md-3 a:hover img {
+            transform: scale(1.09);
+            transition: all 0.6s;
+            box-shadow: 8px 8px 15px #888888;
+        }
+
+        .recommend .nav .col-md-3 a p {
+            color: #000;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .recommend .nav .col-md-3 a:hover p {
+            color: blue;
+        }
+
+        .recommend .nav .col-md-3 a:hover h6 {
+            color: rgb(24, 179, 60);
+        }
+
+        .recommend .nav .col-md-3 a h6 {
+            color: rgb(155, 12, 117);
+            font-size: 14px;
+        }
+.recommend>.recommend_head img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+
+        /*最新单曲css*/
+
+        .newest>.newest_head img{
+            width: 45px;
+            height: 45px;
+            margin-right: 15px;
+            margin-left: 10px;
+        }
+
+        .newest .newest_head {
+            height: 70px;
+            line-height: 80px;
+            margin-top: 30px;
+
+        }
+
+        .newest .newest_head i {
+            color: red;
+            font-size: 30px;
+            margin-right: 10px;
+        }
+
+        .newest .newest_head span {
+            color: #000;
+            letter-spacing: 10px;
+            font-size: 30px;
+        }
+
+        .newest_body {
+
+            height: 585px;
+
+        }
+
+        .newest_body li {}
+
+        .newest_body li img {
+            width: 50px;
+            height: 50px;
+
+        }
+
+        .newest_body li span {
+            font-size: 18px;
+            margin-left: 10px;
+            color: #000;
+        }
+
+        .newest_body li i {
+            line-height: 50px;
+            font-size: 15px;
+            color: rgb(175, 142, 153);
+        }
+
+        .newest_body li a:hover i {
+            color: royalblue;
+        }
+
+        .newest_body li a:hover span {
+            color: rgb(30, 186, 43);
+        }
+
+        .newest_body li a:hover img {}
+
+        .newest_body li:hover {
+            transform: scale(1.07);
+            transition: all 0.7s;
+            box-shadow: 8px 8px 15px #888888;
+        }
+
+        /*播放栏css*/
+        .play {
+            padding-left: 35px;
+
+        }
+
+        .play img {
+            width: 85px;
+            height: 85px;
+
+            box-shadow: 8px 8px 15px #888888;
+        }
+
+        .play>.col-md-11 {}
+
+        .play>.col-md-11>div {
+            margin-left: 30px;
+            font-size: 18px;
+            margin-bottom: 8px;
+
+        }
+
+        .play>.col-md-11>div a {
+            color: #000;
+            letter-spacing: 3px;
+        }
+
+        .play>.col-md-11>div a:hover {
+            color: blue;
+            font-size: 19px;
+
+        }
+
+        .play>.col-md-11 audio {
+            width: 90%;
+            margin-left: 20px;
+
+        }
+
+        /* 尾部css*/
+        .tail {
+            height: 50px;
+            background-color: #2C323B;
+            color: #ffff;
+            line-height: 50px;
+            text-align: center;
+
+        }

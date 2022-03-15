@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/zx1.jpg" class="img-rounded" />
+                <p>歌名：公瑾令</p>
+                <h6>歌手：七叔（叶泽浩）</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>公瑾令 - 七叔（叶泽浩）</span><br />
+                    作词：牧言<br />
+                    作曲：牧言<br />
+                    编曲：祝何<br />
+                    古琴一曲后奏每分每刻<br />
+                    江东流水让我尝遍人间苦涩<br />
+                    寒风呼啸而过<br />
+                    东吴万家灯火<br />
+                    数不清的是瑜自酌<br />
+                    如此与倩痛饮<br />
+                    入梦随风而去<br />
+                    城外狼烟四起<br />
+                    唯有此生不明<br />
+                    大江东去的你<br />
+                    待我一世维命<br />
+                    长夜漫漫不见你的身影<br />
+                    大江东去的你<br />
+                    枉我一生从令<br />
+                    此生不平 公瑾却不语<br />
+                    
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    儿女情长如水或薄衣<br />
+                    度日如年逝去何可泣<br />
+                    泪水同雨落掩埋<br />
+                    失声由我来承载<br />
+                    空一身再人间徘徊<br />
+                    如此与倩痛饮<br />
+                    入梦随风而去<br />
+                    城外狼烟四起<br />
+                    唯有此生不明<br />
+                    大江东去的你<br />
+                    待我一世维命<br />
+                    长夜漫漫不见你的身影<br />
+                    大江东去的你<br />
+                    枉我一生从令<br />
+                    此生不平 公瑾却不语<br />
+                    大江东去的你<br />
+                    待我一世维命<br />
+                    长夜漫漫不见你的身影<br />
+                    大江东去的你<br />
+                    枉我一生从令<br />
+                    此生不平 公瑾却不语<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/zx1.jpg" class="img-circle" title="公瑾令 - 七叔（叶泽浩）" />
+            </div>
+            <div class=" col-md-11">
+                <div>公瑾令 - <span>七叔（叶泽浩）</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/七叔（叶泽浩） - 公瑾令.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

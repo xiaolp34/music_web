@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj4.jpg" class="img-rounded" />
+                <p>歌名：你画的彩虹</p>
+                <h6>歌手：姜洋</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>你画的彩虹 - 姜洋</span><br />
+                    作词：姜洋、可可<br />
+                    作曲：刘大江<br />
+                    看昨日天空<br />
+                    美丽彩虹<br />
+                    留下太多感动<br />
+                    是你的美<br />
+                    是你的爱在心中<br />
+                    看白云飘过<br />
+                    满山花朵<br />
+                    知道追求什么<br />
+                    儿时的真<br />
+                    成长的梦在靠拢<br />
+                    是你画的彩虹<br />
+                    撒满了天空<br />
+                    是你给我的力量<br />
+                    让我飞上了天空<br />
+                    因为你我不怕风雨<br />
+                    去追逐彩虹<br />
+                    是你给我的力量<br />
+                    
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    让我飞上了天空<br />
+                    因为你我放飞梦想<br />
+                    去拥抱彩虹<br />
+                    看白云飘过<br />
+                    满山花朵<br />
+                    知道追求什么<br />
+                    儿时的真<br />
+                    成长的梦在靠拢<br />
+                    是你画的彩虹<br />
+                    撒满了天空<br />
+                    是你给我的力量<br />
+                    让我飞上了天空<br />
+                    因为你会在我身旁<br />
+                    陪我看彩虹<br />
+                    是你给我的力量<br />
+                    让我飞上了天空<br />
+                    因为你我不怕风雨<br />
+                    去追逐彩虹<br />
+                    是你给我的力量<br />
+                    让我飞上了天空<br />
+                    因为你我放飞梦想<br />
+                    去拥抱彩虹<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj4.jpg" class="img-circle" title="姜洋 - 你画的彩虹" />
+            </div>
+            <div class="col-md-11">
+                <div>你画的彩虹 - <span>姜洋</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/姜洋 - 你画的彩虹.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

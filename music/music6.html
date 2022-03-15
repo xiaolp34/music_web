@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj5.jpg" class="img-rounded" />
+                <p>歌名：也很值得</p>
+                <h6>歌手：付豪</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>也很值得 - 付豪</span><br />
+                    作词：一博<br />
+                    作曲：一博<br />
+                    我知道我现在的角色<br />
+                    也不敢再去奢求什么<br />
+                    所以我保持沉默<br />
+                    什么话都不说<br />
+                    自己放弃幻想的资格<br />
+                    也许回到一个人生活<br />
+                    也胜过这样不温不火<br />
+                    徘徊是一种折磨<br />
+                    不如一笑而过<br />
+                    我成全你想要的选择<br />
+                    如果一个人哭了<br />
+                    两个人都会快乐<br />
+                    我宁愿换来三个人解脱<br />
+                    相信在你的世界<br />
+                    我只是个过客<br />
+                    从来没有占据太多<br />
+                    如果一个人哭了<br />
+                    两个人都会快乐<br />
+                    我宁愿换来三个人好过<br />
+                    终究是一个结果<br />
+                    没有什么或者<br />
+                    所以我才安静离开<br />
+                    也很值得<br />
+                    我知道我现在的角色<br />
+                    也不敢再去奢求什么<br />
+                    所以我保持沉默<br />
+                    什么话都不说<br />
+                    
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    自己放弃幻想的资格<br />
+                    也许回到一个人生活<br />
+                    也胜过这样不温不火<br />
+                    徘徊是一种折磨<br />
+                    不如一笑而过<br />
+                    我成全你想要的选择<br />
+                    如果一个人哭了<br />
+                    两个人都会快乐<br />
+                    我宁愿换来三个人解脱<br />
+                    相信在你的世界<br />
+                    我只是个过客<br />
+                    从来没有占据太多<br />
+                    如果一个人哭了<br />
+                    两个人都会笑着<br />
+                    我宁愿换来三个人好过<br />
+                    终究是一种结果<br />
+                    没有什么或者<br />
+                    所以我才安静离开<br />
+                    也很值得<br />
+                    如果一个人哭了<br />
+                    两个人都会笑着<br />
+                    我宁愿换来三个人解脱<br />
+                    相信在你的世界<br />
+                    我只是个过客<br />
+                    从来没有占据太多<br />
+                    如果一个人哭了<br />
+                    两个人都会快乐<br />
+                    我宁愿换来三个人好过<br />
+                    终究是一种结果<br />
+                    没有什么或者<br />
+                    所以我才安静离开<br />
+                    也很值得<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj5.jpg" class="img-circle" title="付豪 - 也很值得" />
+            </div>
+            <div class="col-md-11">
+                <div>也很值得 - <span>付豪</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/付豪 - 也很值得.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+* {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-image: url(../img/register.jpg);
+    }
+
+    .register {
+        width: 500px;
+        margin: auto;
+        border: 2px solid red;
+        border-radius: 10px;
+        margin-top: 200px;
+        box-shadow: 8px 8px 20px black;
+        background-color: white;
+    }
+
+    .register>.register_head>ul {
+        border-bottom: none;
+        margin-bottom: 30px;
+
+    }
+
+    .register>.register_head>ul>li {
+        width: 100px;
+        text-align: center;
+        height: 50px;
+
+    }
+
+    .register_head>.nav-tabs>li.active>a,
+    .register_head>.nav-tabs>li.active>a:focus,
+    .register_head>.nav-tabs>li.active>a:hover {
+        color: black;
+        font-weight: bolder;
+        cursor: default;
+        background-color: white;
+        border: unset;
+        border-bottom: 5px solid #0066ff;
+    }
+
+    .tab-content {
+        margin-right: 20px;
+    }
+
+    #sign_in .btn {
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    #register {
+        margin-left: 15px;
+
+    }
+
+    #register select {
+        width: 110px;
+        text-align: center;
+    }
+
+    #register .btn-primary {
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }

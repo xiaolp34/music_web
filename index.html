@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/font-awesome.css" type="text/css"/>
+    <link rel="icon" href="./img/logo.png">
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <script src="./js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="./index.html"><img src="./img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="./music/music1.html">歌词</a></li>
+                    <li><a href="./other/top.html">排行榜</a></li>
+                    <li><a href="./other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="./error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="./img/search.png"/></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="./other/register.html" title="登录或注册"><img src="./img/user.png"/>登录</a>
+            </div>
+        </div>
+
+
+        <!-- 轮播图 -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="none">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner shuffling">
+                <div class="item active">
+                    <img src="./img/0.jpg" alt="0">
+                </div>
+                <div class="item">
+                    <img src="./img/1.jpg" alt="1">
+                </div>
+                <div class="item">
+                    <img src="./img/2.jpg" alt="2">
+                </div>
+                <div class="item">
+                    <img src="./img/3.jpg" alt="3">
+                </div>
+                <div class="item">
+                    <img src="./img/4.jpg" alt="4">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span aria-hidden="true"><img src="./img/left.png"> </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span aria-hidden="true"><img src="./img/right.png"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="nav" style="height: 690px;">
+            <!--推荐歌曲-->
+            <div class="col-md-8 recommend">
+                <div class="recommend_head">
+                    <h1><img src="./img/music.png"><span>热门推荐</span></h1>
+                </div>
+                <div class="nav">
+                    <div class="col-md-3">
+                        <a href="./music/music2.html" title="那些关于你的 - 子尧">
+                            <img src="./img/tj1.jpg" class="img-rounded" />
+                            <p>歌名：那些关于你的</p>
+                            <h6>歌手：子尧</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="./music/music3.html" title="空 - 徐海俏">
+                            <img src="./img/tj2.jpg" class="img-rounded" />
+                            <p>歌名：空</p>
+                            <h6>歌手：徐海俏</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="./music/music4.html" title="须尽欢 - 渡">
+                            <img src="./img/tj3.jpg" class="img-rounded" />
+                            <p>歌名：须尽欢</p>
+                            <h6>歌手：渡</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="./music/music5.html" title="你画的彩虹 - 姜洋">
+                            <img src="./img/tj4.jpg" class="img-rounded" />
+                            <p>歌名：你画的彩虹</p>
+                            <h6>歌手：姜洋</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav">
+                    <div class="col-md-3">
+                        <a href="./music/music6.html" title="也很值得 - 付豪">
+                            <img src="./img/tj5.jpg" class="img-rounded" />
+                            <p>歌名：也很值得</p>
+                            <h6>歌手：付豪</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="./music/music7.html" title="语病 - 彭小胖">
+                            <img src="./img/tj6.jpg" class="img-rounded" />
+                            <p>歌名：语病</p>
+                            <h6>歌手：彭小胖</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="./music/music1.html" title="安好各一边 - 四郎">
+                            <img src="./img/tj7.jpg" class="img-rounded" />
+                            <p>歌名：安好各一边</p>
+                            <h6>歌手：四郎</h6>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="./music/music8.html" title="一个人决定 - 虎二">
+                            <img src="./img/tj8.jpg" class="img-rounded" />
+                            <p>歌名：一个人决定</p>
+                            <h6>歌手：虎二</h6>
+                        </a>
+                    </div>
+                </div>
+                <!--播放栏-->
+                <div class="row play">
+                    <div class="col-md-1">
+                        <a href="./music/music1.html"><img src="./img/tj7.jpg" class="img-circle" title="安好各一边 - 四郎" /></a>
+                    </div>
+                    <div class="col-md-11">
+                        <div><a href="./music/music1.html">安好各一边 - <span>四郎</span></a></div>
+                        <audio class="myAudio" controls autoplay>
+                            <source src="./mp3/四郎 - 安好各一边.mp3" type="audio/mpeg">
+                        </audio>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--最新单曲-->
+            <div class="col-md-4 newest">
+                <div class="newest_head">
+                    <h1>
+                        <img src="./img/music2.png"/>
+                        <span>最新单曲</span>
+                    </h1>
+                </div>
+                <div class="newest_body">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="./music/music9.html">
+                                <img src="./img/zx1.jpg" class="img-circle">
+                                <span>七叔（叶泽浩） - 公瑾令</span>
+                                <i class="pull-right"> 2021-11-05</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music10.html">
+                                <img src="./img/zx2.jpg" class="img-circle">
+                                <span>刘德华 - 又弹起心爱的土琵琶</span>
+                                <i class="pull-right"> 2021-11-04</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music11.html">
+                                <img src="./img/zx3.jpg" class="img-circle">
+                                <span>张碧晨 - 字里行间</span>
+                                <i class="pull-right"> 2021-11-05</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music12.html">
+                                <img src="./img/zx4.jpg" class="img-circle">
+                                <span>花姐 - 算了吧</span>
+                                <i class="pull-right"> 2021-11-03</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music13.html">
+                                <img src="./img/zx5.jpg" class="img-circle">
+                                <span>冷漠 - 等风来</span>
+                                <i class="pull-right"> 2021-11-03</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music14.html">
+                                <img src="./img/zx6.jpg" class="img-circle">
+                                <span>杨小壮 - 男人像一本书</span>
+                                <i class="pull-right"> 2021-11-05</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music15.html">
+                                <img src="./img/zx7.jpg" class="img-circle">
+                                <span>雨中百合 - 爱的狼狈</span>
+                                <i class="pull-right"> 2021-11-06</i>
+                            </a>
+                        </li>
+                        <li><a href="./music/music16.html">
+                                <img src="./img/zx8.jpg" class="img-circle">
+                                <span>云菲菲 - 情刺</span>
+                                <i class="pull-right"> 2021-11-06</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="tail">
+            <p>Copyright &copy; 2021 TutuMusic - All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>

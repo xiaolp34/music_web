@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj1.jpg" class="img-rounded" />
+                <p>歌名：那些关于你的</p>
+                <h6>歌手：子尧</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>那些关于你的 - 子尧 </span><br />
+                    作词：刘涛、堇临<br />
+                    作曲：刘涛<br />
+                    制作人：刘涛<br />
+                    编曲：谭侃侃<br />
+                    吉他：谭侃侃<br />
+                    你走后我想养只猫<br />
+                    至少它还可以给我拥抱<br />
+                    在每一个深醉的夜里<br />
+                    我又想起了你<br />
+                    你走后我养了一只猫<br />
+                    虽然它已经是我的全部<br />
+                    在每一个沉睡的梦里<br />
+                    还是失去了你<br />
+                    我想穷极一生把你照亮<br />
+                    我最不能忘的小镇姑娘<br />
+                    是否回忆里牵肠 现实里流浪<br />
+                    是否已离开北方<br />
+                    希望你能找个好的地方<br />
+                    闲来无事能多晒晒太阳<br />
+                    愿你蝉鸣有林场 雾散有艳阳<br />
+                    不再为失去感伤<br />
+                    你走后我想养只猫<br />
+                    
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    至少它还可以给我拥抱<br />
+                    在每一个深醉的夜里<br />
+                    我又想起了你<br />
+                    猫的名字你取会更好<br />
+                    虽然它已经是我的全部<br />
+                    在每一个沉睡的梦里<br />
+                    还是失去了你<br />
+                    我想穷极一生把你照亮<br />
+                    我最不能忘的小镇姑娘<br />
+                    是否回忆里牵肠 现实里流浪<br />
+                    是否已离开北方<br />
+                    希望你能找个好的地方<br />
+                    闲来无事能多晒晒太阳<br />
+                    愿你蝉鸣有林场 雾散有艳阳<br />
+                    不再为失去感伤<br />
+                    我想倾其一生陪你跌宕<br />
+                    做你冬夜里的那件衣裳<br />
+                    愿你眼中有星光 碧海仍向往<br />
+                    所梦都能如愿以偿<br />
+                    希望你能找个好的地方<br />
+                    闲来无事能多晒晒太阳<br />
+                    愿你落脚皆故乡 理想仍滚烫<br />
+                    我愿做你的北方<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj1.jpg" class="img-circle" title="那些关于你的 - 子尧" />
+            </div>
+            <div class="col-md-11">
+                <div>那些关于你的 - <span>子尧</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/子尧 - 那些关于你的.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

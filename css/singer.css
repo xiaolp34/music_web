@@ -1,0 +1,150 @@
+    /* 导航栏css */
+    .example {
+        margin-top: 10px;
+    }
+
+    form.example input[type=text] {
+        padding: 8px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+    form.example button {
+        float: left;
+        width: 12%;
+        padding: 8px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    form.example button:hover {
+        background: #0b7dda;
+    }
+
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+
+
+    .logo a img {
+        width: 80px;
+        margin-left: 50px;
+        margin-right: 10px;
+        margin-top: -10px;
+    }
+
+    .logo a span {
+        font-size: 25px;
+        line-height: 60px;
+        font-family: sans-serif;
+        color: #000;
+        letter-spacing: 5px;
+        font-style: oblique;
+        font-weight: bolder;
+    }
+
+    .logo a:hover span {
+        color: #c533df;
+        font-size: 26px;
+    }
+
+
+
+    a:link {
+        text-decoration: none;
+        /* 指正常的未被访问过的链接*/
+
+    }
+
+    a:visited {
+        text-decoration: none;
+        /*指已经访问过的链接*/
+
+    }
+
+    a:hover {
+        text-decoration: none;
+        /*指鼠标在链接*/
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    /* 指正在点的链接*/
+    .nav_menu a {
+        line-height: 35px;
+        width: 100px;
+        text-align: center;
+        font-size: 17px;
+        color: #000;
+    }
+
+    .nav_menu a:hover {
+        color: #4518d86f;
+        font-weight: 500;
+    }
+
+    .login span {
+        margin-right: 3px;
+
+    }
+
+    .login {
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        color: #000;
+    }
+
+    .login>img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .example img {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* 歌手 */
+    .singer {
+        width: 94%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .singer>div>.row {
+        margin-top: 35px;
+    }
+
+    .singer>div>p {
+        font-size: 45px;
+        color: #c533df;
+        letter-spacing: 35px;
+        margin-top: 65px;
+    }
+
+    .singer>div {
+        margin-top: 30px;
+    }
+
+    .singer img {
+        width: 160px;
+    }
+
+    .singer hr {
+        border: 1px solid black;
+    }

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/zx7.jpg" class="img-rounded" />
+                <p>歌名：爱的狼狈</p>
+                <h6>歌手：雨中百合</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>爱的狼狈 - 雨中百合</span><br />
+                    作词：紫雨飘香<br />
+                    作曲：九雨<br />
+                    午夜里喝醉<br />
+                    谁能体会寂寞的滋味<br />
+                    破碎的心早已颓废<br />
+                    如何找出爱的后退<br />
+                    天上的云在飞<br />
+                    寂寞告诉谁<br />
+                    愿做平静的湖水<br />
+                    愿做一条寂寞的鱼<br />
+                    午夜里泪在飞<br />
+                    谁能知道寂寞的滋味<br />
+                    有过多少往事不堪回避<br />
+                    如何防备你已高飞<br />
+                    如果我是一条鱼<br />
+                    七秒的记忆<br />
+                    转眼之间忘掉过去无忧无虑<br />
+                    都说爱情会陶醉<br />
+                    陶醉过后剩下多少负累<br />
+                    我们相爱如果是一种罪<br />
+                    我拿什么去赎罪<br />
+                    都说爱情会伤悲<br />
+                    伤悲过后谁来抚慰<br />
+                    在爱的世界里谁错谁对<br />
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+
+                    无力去埋怨谁<br />
+                    午夜里泪在飞<br />
+                    谁能知道寂寞的滋味<br />
+                    有过多少往事不堪回避<br />
+                    如何防备你已高飞<br />
+                    如果我是一条鱼<br />
+                    七秒的记忆<br />
+                    转眼之间忘掉过去无忧无虑<br />
+                    都说爱情会陶醉<br />
+                    陶醉过后剩下多少负累<br />
+                    我们相爱如果是一种罪<br />
+                    我拿什么去赎罪<br />
+                    都说爱情会伤悲<br />
+                    伤悲过后谁来抚慰<br />
+                    在爱的世界里谁错谁对<br />
+                    无力去埋怨谁<br />
+                    都说爱情会陶醉<br />
+                    陶醉过后剩下多少负累<br />
+                    我们相爱如果是一种罪<br />
+                    我拿什么去赎罪<br />
+                    都说爱情会伤悲<br />
+                    伤悲过后谁来抚慰<br />
+                    在爱的世界里谁错谁对<br />
+                    无力去埋怨谁<br />
+                    在爱的世界里谁错谁对<br />
+                    无力去埋怨谁<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/zx7.jpg" class="img-circle" title="爱的狼狈 - 雨中百合" />
+            </div>
+            <div class=" col-md-11">
+                <div>爱的狼狈 - <span>雨中百合</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/雨中百合 - 爱的狼狈.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

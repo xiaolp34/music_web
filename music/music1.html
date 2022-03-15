@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css"/>
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png"/></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png"/>登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj7.jpg" class="img-rounded" />
+                <p>歌名：安好各一边</p>
+                <h6>歌手：四郎</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>安好各一边 - 四郎</span><br />
+                    作词 : 月生<br />
+                    作曲 : 四郎<br />
+                    一句我想念<br />
+                    我变得哑口无言<br />
+                    往事已经留在昨天里面<br />
+                    又何必浮现<br />
+                    揉碎的爱恋<br />
+                    随着衣角的条线走一圈<br />
+                    又回到原点<br />
+                    渴望着爱一遍<br />
+                    怀念<br />
+                    当你丢下我的那一天<br />
+                    出租车里哭红了双眼<br />
+                    今后你我不在同一个时间<br />
+                    夜空划落思念的愿<br />
+                    我也不再苦苦想念<br />
+                    嘴角微笑只愿安好各一边<br />
+                    一人的世界<br />
+                    不再有你的光圈<br />
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    又是一个秋天微风拂面<br />
+                    偶尔会想念<br />
+                    相框里的照片<br />
+                    我们笑得多么甜<br />
+                    你的脸靠在我身边<br />
+                    陪我这些年<br />
+                    怀念<br />
+                    当你丢下我的那一天<br />
+                    出租车里哭红了双眼<br />
+                    今后你我不在同一个时间<br />
+                    夜空划落思念的愿<br />
+                    我也不再苦苦想念<br />
+                    眼泪遮住晴天我也不想怀念<br />
+                    当你丢下我的那一天<br />
+                    出租车里哭红了双眼<br />
+                    今后你我不在同一个时间<br />
+                    夜空划落思念的愿<br />
+                    我也不再苦苦想念<br />
+                    嘴角微笑只愿安好各一边<br />
+                    抱歉我不敢再多爱你一遍<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj7.jpg" class="img-circle" title="安好各一边 - 四郎" />
+            </div>
+            <div class="col-md-11">
+                <div>安好各一边 - <span>四郎</span></div>
+                <audio class="myAudio" controls autoplay>
+                    
+                    <source src="../mp3/四郎 - 安好各一边.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

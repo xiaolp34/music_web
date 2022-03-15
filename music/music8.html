@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/tj8.jpg" class="img-rounded" />
+                <p>歌名：一个人决定</p>
+                <h6>歌手：虎二</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>一个人决定 - 虎二</span><br />
+                    作词：陈皓轩<br />
+                    作曲：陈皓轩<br />
+                    混音：虎二<br />
+                    我不想说太多<br />
+                    因为都是关于我<br />
+                    你会不爱听<br />
+                    但也会勉强笑着<br />
+                    因为你说我是忍者<br />
+                    我觉得是关心我<br />
+                    我不说<br />
+                    我以为我不问就不难过<br />
+                    你没有错<br />
+                    错的是不愿把机会给我<br />
+                    我在这里踱步等你的消息<br />
+                    这空空的观众席<br />
+                    最后一个听者<br />
+                    是我录音机播放着<br />
+                    爱情扮演不了的角色<br />
+                    这是什么样的关系<br />
+                    你总摸不清<br />
+                    而我像飞蛾扑火来疼爱你<br />
+                    遗憾我们经常辜负<br />
+                    夜色的美意<br />
+                    坦白说什么样的结局<br />
+                    都能打动我心<br />
+                    别拿我的爱故意当作把戏<br />
+                    谁都能自私地宣布战绩<br />
+                    
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    可胜负不能你一个人决定<br />
+                    你没有错<br />
+                    错的是不愿把机会给我<br />
+                    我在这里踱步等你的消息<br />
+                    这空空的观众席<br />
+                    最后一个听者<br />
+                    是我录音机播放着<br />
+                    爱情扮演不了的角色<br />
+                    这是什么样的关系<br />
+                    你总摸不清<br />
+                    而我像飞蛾扑火来疼爱你<br />
+                    遗憾我们经常辜负<br />
+                    夜色的美意<br />
+                    坦白说什么样的结局<br />
+                    都能打动我心<br />
+                    别拿我的爱故意当作把戏<br />
+                    谁都能自私地宣布战绩<br />
+                    可胜负不能你一个人决定<br />
+                    这是什么样的关系<br />
+                    你总摸不清<br />
+                    而我像飞蛾扑火来疼爱你<br />
+                    遗憾我们经常辜负<br />
+                    夜色的美意<br />
+                    坦白说什么样的结局<br />
+                    都能打动我心<br />
+                    别拿我的爱故意当作把戏<br />
+                    谁都能自私地宣布战绩<br />
+                    可胜负不能你一个人决定<br />
+                    我不想说太多<br />
+                    因为都是关于我<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/tj8.jpg" class="img-circle" title="一个人决定 - 虎二" />
+            </div>
+            <div class=" col-md-11">
+                <div>一个人决定 - <span>虎二</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/虎二 - 一个人决定.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

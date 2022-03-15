@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/zx4.jpg" class="img-rounded" />
+                <p>歌名：算了吧</p>
+                <h6>歌手：花姐</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>算了吧 - 花姐</span><br />
+                    作词：陕西牛犇<br />
+                    作曲：陕西牛犇<br />
+                    编曲：路野<br />
+                    制作人：李九鸣<br />
+                    监制：张加<br />
+                    吉他：向巍、路野<br />
+                    和声：姚斯婷 <br />
+                    混音助理：朱合理<br />
+                    录音、混音：张加<br />
+                    OP：919 Music Group Co.,Ltd<br />
+                    算了吧算了吧算了吧<br />
+                    算了吧我不想再装傻<br />
+                    曾经一起的岁月<br />
+                    曾经说过的那些话<br />
+                    忘了吧忘了吧忘掉吧<br />
+                    送你的礼物扔掉吧<br />
+                    
+
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    给你的情书烧掉吧<br />
+                    曾经一起的岁月<br />
+                    曾经说过的情话<br />
+                    忘了吧忘了吧忘掉吧<br />
+                    算了吧算了吧算了吧<br />
+                    算了吧我不想再装傻<br />
+                    曾经一起的岁月<br />
+                    曾经说过的那些话<br />
+                    忘了吧忘了吧忘掉吧<br />
+                    送你的礼物扔掉吧<br />
+                    给你的情书烧掉吧<br />
+                    曾经一起的岁月<br />
+                    曾经说过的情话<br />
+                    忘了吧忘了吧忘掉吧<br />
+                    送你的礼物扔掉吧<br />
+                    给你的情书烧掉吧<br />
+                    曾经珍惜的过往<br />
+                    曾经爱过的人啊<br />
+                    忘了吧忘了吧都忘掉吧<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/zx4.jpg" class="img-circle" title="算了吧 - 花姐" />
+            </div>
+            <div class=" col-md-11">
+                <div>算了吧- <span>花姐</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/花姐 - 算了吧.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

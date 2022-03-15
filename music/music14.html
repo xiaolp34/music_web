@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图图音乐</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+    <link rel="icon" href="../img/logo.png">
+    <link href="../css/music.css" rel="stylesheet" type="text/css" />
+    <script src="../js/myAudio.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏 -->
+        <div class="nav" style="border-bottom:  2px solid rgb(226, 213, 213)">
+            <!-- logo -->
+            <div class="col-md-3 logo">
+                <a href="../index.html"><img src="../img/logo.png"><span>图图音乐</span></a>
+            </div>
+            <!-- 导航菜单 -->
+            <div class="col-md-4 nav_menu">
+                <ul class="nav nav-pills">
+                    <li><a href="../index.html">首页</a></li>
+                    <li class="active"><a href="#">歌词</a></li>
+                    <li><a href="../other/top.html">排行榜</a></li>
+                    <li><a href="../other/singer.html">歌手</a></li>
+                </ul>
+            </div>
+            <!-- 搜索表单 -->
+            <div class="col-md-4">
+                <form class="example" action="../error/505.html">
+                    <input type="text" placeholder="搜索音乐、歌单、歌手.." name="search">
+                    <button type="submit"><img src="../img/search.png" /></button>
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="col-md-1">
+                <a class="login" href="../other/register.html" title="登录或注册"><img src="../img/user.png" />登录</a>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="row content">
+            <div class="col-md-3">
+                <img src="../img/zx6.jpg" class="img-rounded" />
+                <p>歌名：男人像一本书</p>
+                <h6>歌手：杨小壮</h6>
+            </div>
+            <div class="col-md-4 sx">
+                <p>
+                    <span>男人像一本书 - 杨小壮</span><br />
+                    作词：杨小壮<br />
+                    作曲：杨小壮<br />
+                    混音：一楠先生<br />
+                    监制：杨小壮<br />
+                    制作公司：杨小壮音乐工作室<br />
+                    男人像一本书<br />
+                    你要慢慢的读<br />
+                    他不说他的苦<br />
+                    没人懂他难处<br />
+                    男人就像一本书<br />
+                    谁能懂他孤独<br />
+                    他喝下清晨的酒<br />
+                    是为了前方的路<br />
+                    一个男人在对着自己笑<br />
+                    一个男人在对着自己哭<br />
+                    一个男人享受黑夜的孤独<br />
+                    一个男人他在和自己相处<br />
+                    一个男人想把自己看清楚<br />
+                    一个男人已经没人会在乎<br />
+                    一个男人他在听这首歌<br />
+                    
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    
+                    听到了自己的那些痛苦<br />
+                    男人就像一本书<br />
+                    谁能懂他孤独<br />
+                    他喝下清晨的酒<br />
+                    是为了前方的路<br />
+                    一个男人在对着自己笑<br />
+                    一个男人在对着自己哭<br />
+                    一个男人享受黑夜的孤独<br />
+                    一个男人他在和自己相处<br />
+                    一个男人想把自己看清楚<br />
+                    一个男人已经没人会在乎<br />
+                    一个男人他在听这首歌<br />
+                    听到了自己的那些痛苦<br />
+                    一个男人他在对自己笑<br />
+                    一个男人他在对自己哭<br />
+                    一个男人享受黑夜的孤独<br />
+                    一个男人他在和自己相处<br />
+                    一个男人想把自己看清楚<br />
+                    一个男人已经没人会在乎<br />
+                    一个男人他在听这首歌<br />
+                    听到了自己的那些痛苦<br />
+                </p>
+            </div>
+        </div>
+
+        <!--播放栏-->
+        <div class="row play">
+            <div class="col-md-1">
+                <img src="../img/zx6.jpg" class="img-circle" title="男人像一本书 - 杨小壮" />
+            </div>
+            <div class=" col-md-11">
+                <div>男人像一本书 - <span>杨小壮</span></div>
+                <audio class="myAudio" controls autoplay>
+
+                    <source src="../mp3/杨小壮 - 男人像一本书.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
