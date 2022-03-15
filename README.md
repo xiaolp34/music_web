@@ -1,4 +1,4 @@
 # music
 ###首页
-<img src="https://github.com/xiaolp34/music_web/tree/main/img/0.jpg />
+![](https://github.com/xiaolp34/music_web/blob/2d3db10449fcf8d7cec9b9ab540a5e59759771a6/img/0.jpg)
  
