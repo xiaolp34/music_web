@@ -1,7 +1,7 @@
 # music_web 音乐网站（毕业设计）
 
 ## 网站结构
-<img src="./img_web/jg.png />
+![](./img_web/jg.png )
 ## 效果展示
 ### 首页界面
 ![](./img_web/sy.png )
