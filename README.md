@@ -1,4 +1,4 @@
-# music_web 音乐网站（毕业设计）
+# music_web 音乐网站
 ### 查看效果：https://xiaolp34.github.io/music_web/
 ## 效果展示
 ### 首页界面
