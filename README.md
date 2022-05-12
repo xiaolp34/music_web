@@ -1,20 +1,29 @@
-# music_web 音乐网站
-### 查看效果：https://xiaolp34.github.io/music_web/
-## 效果展示
+# 音乐网站
+
+## 效果地址：
+### Gitee（国内推荐）：https://xiao34.gitee.io/music_web
+### GitHub：https://xiaolp34.github.io/music_web
+## 其他项目:
+### 电商后台管理系统:  
+#### 效果地址：https://xiao34.gitee.io/vue_shop
+#### 项目地址：https://gitee.com/xiao34/vue_shop
+### 品优购：
+#### 效果地址：https://xiao34.gitee.io/shoping
+#### 项目地址：https://gitee.com/xiao34/shoping
+
+## GitHub仓库：https://github.com/xiaolp34?tab=repositories
+
+
+##-网站结构
+![](./img_web/jg.png )
+##效果展示
 ### 首页界面
 ![](./img_web/sy.png )
-
-### 登录界面
+###登录界面
 ![](./img_web/dl.png )
-
-### 歌词界面
+###歌词界面
 ![](./img_web/gc.png )
-
-### 排行榜界面
+###排行榜界面
 ![](./img_web/phb.png )
-
-### 歌手界面
+###歌手界面
 ![](./img_web/gs.png )
-
-##
-![](./img_web/jg.png )
