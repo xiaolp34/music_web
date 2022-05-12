@@ -11,8 +11,7 @@
 #### 效果地址：https://xiao34.gitee.io/shoping
 #### 项目地址：https://gitee.com/xiao34/shoping
 
-## GitHub仓库：https://github.com/xiaolp34?tab=repositories
-
+## Gitee仓库：https://gitee.com/xiao34
 
 ##-网站结构
 ![](./img_web/jg.png )
