@@ -6,10 +6,10 @@
 ## 其他项目:
 ### 电商后台管理系统:  
 #### 效果地址：https://xiao34.gitee.io/vue_shop
-#### 项目地址：https://github.com/xiao34/vue_shop
+#### 项目地址：https://github.com/xiaolp34/vue_shop
 ### 品优购：
 #### 效果地址：https://xiao34.gitee.io/shoping
-#### 项目地址：https://github.com/xiao34/shoping
+#### 项目地址：https://github.com/xiaolp34/shoping
 
 ## Gitee仓库：https://gitee.com/xiao34
 
